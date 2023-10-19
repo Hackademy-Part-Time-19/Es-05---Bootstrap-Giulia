@@ -9,11 +9,24 @@ body {
 
     }
 }
-video-container{
+
+video-container {
     position: absolute;
     top: 0%;
     left: 0%;
     height: 100%;
     width: 100%;
     overflow: hidden;
-} 
+}
+
+image-container {
+    display: 1;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    font-style: normal;
+    color: black;
+
+}
